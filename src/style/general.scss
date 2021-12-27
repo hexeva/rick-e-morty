@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fontsource/montserrat/400.css';
+@import '~@fontsource/montserrat/700.css';
+
+@import './variables';
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: rgb(234,237,199);
+    background: linear-gradient(90deg, rgba(234,237,199,1) 0%, rgba(213,213,221,0.04945728291316531) 100%, rgba(230,255,0,1) 100%);
+    color:$brand_main_text;
+    
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+h2{
+    color: black;
+}
