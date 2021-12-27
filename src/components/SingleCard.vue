@@ -26,12 +26,14 @@ export default {
 @import '../style/variables';
 
 .card{
+    min-width: 300px;
+    max-width: 300px;
     padding: 10px;
     margin-bottom: 50px;
 
     &_img{        
         margin: auto;
-        width: 80%;
+        max-width: 200px;
         overflow: hidden;
         img{
         border-radius: 50%;
